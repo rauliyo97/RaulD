@@ -7,8 +7,12 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
-  constructor(public navCtrl: NavController) {
+  private nombre:string;
+  private apellidos:string;
 
+  constructor(public navCtrl: NavController) {
+    this.nombre = "Raúl";
+    this.apellidos = "Delgado Jambrina";
   }
 
 }
