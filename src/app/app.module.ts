@@ -12,6 +12,7 @@ import {FutbolPage} from "../pages/futbol/futbol";
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import {EquiposFutbolComponent} from "../components/equipos-futbol/equipos-futbol";
+import {InstagramComponent} from "../components/instagram/instagram";
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import {EquiposFutbolComponent} from "../components/equipos-futbol/equipos-futbo
     HomePage,
     TabsPage,
     FutbolPage,
-    EquiposFutbolComponent
+    EquiposFutbolComponent,
+    InstagramComponent
 
   ],
   imports: [
@@ -36,7 +38,8 @@ import {EquiposFutbolComponent} from "../components/equipos-futbol/equipos-futbo
     HomePage,
     TabsPage,
     FutbolPage,
-    EquiposFutbolComponent
+    EquiposFutbolComponent,
+    InstagramComponent
   ],
   providers: [
     StatusBar,
